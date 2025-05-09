@@ -48,12 +48,9 @@ console.log("Is balanced?", bst.isBalanced());
 // do traversals again
 console.log("\nLevel order:");
 bst.levelOrder(node => console.log(node.data));
-
 console.log("\nPreorder:");
 bst.preOrder(node => console.log(node.data));
-
 console.log("\nInorder:");
 bst.inOrder(node => console.log(node.data));
-
 console.log("\nPostorder:");
 bst.postOrder(node => console.log(node.data));
