@@ -51,6 +51,7 @@ class Tree {
             root.data = minRight.data;
             root.right = this.deleteItem(minRight.data, root.right);
         }
+
         return root;
     }
 
